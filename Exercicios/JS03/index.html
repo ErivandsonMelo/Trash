@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Barras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gráfico de Barras</h1>
+        <div class="inputs">
+            <label for="bar1-height">Altura da Barra 1:</label>
+            <input type="number" id="bar1-height" min="0" value="100">
+            <label for="bar1-width">Largura da Barra 1:</label>
+            <input type="number" id="bar1-width" min="0" value="50"><br>
+
+            <label for="bar2-height">Altura da Barra 2:</label>
+            <input type="number" id="bar2-height" min="0" value="100">
+            <label for="bar2-width">Largura da Barra 2:</label>
+            <input type="number" id="bar2-width" min="0" value="50"><br>
+
+            <label for="bar3-height">Altura da Barra 3:</label>
+            <input type="number" id="bar3-height" min="0" value="100">
+            <label for="bar3-width">Largura da Barra 3:</label>
+            <input type="number" id="bar3-width" min="0" value="50"><br>
+
+            <label for="bar4-height">Altura da Barra 4:</label>
+            <input type="number" id="bar4-height" min="0" value="100">
+            <label for="bar4-width">Largura da Barra 4:</label>
+            <input type="number" id="bar4-width" min="0" value="50"><br>
+
+            <div class="button">
+                <button onclick="generateGraph()">Gerar Gráfico</button>
+            </div>
+        </div>
+        <div class="graph">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar" id="bar3"></div>
+            <div class="bar" id="bar4"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
