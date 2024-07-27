@@ -1,0 +1,46 @@
+#board {
+  background-color: #f0f0f0; /* Cor de fundo mais clara */
+  border: 2px solid #333; /* Borda mais escura */
+  margin: 0 auto;
+  border-radius: 10px; /* Cantos arredondados para o tabuleiro */
+}
+
+#board td {
+  width: 20px; /* Aumenta o tamanho das células */
+  height: 20px;
+  background-color: #e0e0e0; /* Cor de fundo das células */
+}
+
+#dados {
+  width: 800px; /* Aumenta a largura do container */
+  height: 50px; /* Aumenta a altura do container */
+  margin: 0 auto;
+  margin-bottom: 20px; /* Aumenta o espaço abaixo do container */
+  display: flex;
+  align-items: center; /* Alinha itens verticalmente ao centro */
+  justify-content: space-between; /* Distribui espaço entre itens */
+  font-family: 'Verdana', 'Arial', sans-serif; /* Fontes mais modernas */
+  color: #333; /* Cor do texto mais suave */
+}
+
+#dados #fimdejogo {
+  font-size: 20px; /* Aumenta o tamanho da fonte para o texto de fim de jogo */
+  color: #ff6f6f; /* Cor de texto vermelho claro */
+}
+
+#dados #mp {
+  font-size: 18px; /* Aumenta o tamanho da fonte para a pontuação */
+  color: #555; /* Cor do texto mais escura */
+}
+
+#gameover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Alinhamento centralizado absoluto */
+  font-size: 60px; /* Aumenta o tamanho da fonte para o texto de game over */
+  font-family: 'Verdana', 'Arial', sans-serif; /* Fontes mais modernas */
+  color: #ff4d4d; /* Cor do texto vermelho mais suave */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adiciona uma sombra sutil ao texto */
+  display: none;
+}
